@@ -4,7 +4,7 @@
 
 int main()
 {
-  // Initialize Winsocks
+  // Initialize Winsock
 int iResult;
   WSADATA wsaData;
   iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
